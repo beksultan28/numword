@@ -1,2 +1,2 @@
 # numword
-Simple class that converts numbers into string representation
+Simple C++ class that converts numbers into string representation
