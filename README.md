@@ -1,12 +1,13 @@
 # numword
-Simple C++ class that converts numbers into string representation
+Simple C++ class that converts numbers into string representation.
+
+Range: from -999999999999999999 to 999999999999999999 (quadrillion)
 
 ## Usage:
 ```cpp
 NumWord converter;
-long long int n;
-n = -1474142398007;
-printf("n is %lld, %s\n", n, converter.words(n));
+int n = 984;
+printf("%s\n", converter.words(n)); // nine hundred eighty-four
 ```
 
 ## License
